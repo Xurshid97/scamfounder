@@ -1,0 +1,4 @@
+network.host: 0.0.0.0
+cluster.name: my-cluster
+node.name: elasticsearch-node
+discovery.type: single-node
