@@ -5,10 +5,10 @@ from langdetect import detect
 # Initialize Elasticsearch and OpenAI
 es = Elasticsearch(
     "https://localhost:9200",
-    basic_auth=("elastic", "VzeN_Io5A6jTRfFBqAyW"),
+    basic_auth=("elastic", "your-password"),
     verify_certs=False
 )
-openai.api_key = "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"
+openai.api_key = "your-api-key"
 
 def detect_language(message):
     """
